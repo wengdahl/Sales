@@ -19,6 +19,16 @@ public class Client {
     private int clientID;
     private String clientName;
 
+    protected Employee getEmp() {
+        return emp;
+    }
+
+    protected void setEmp(Employee emp) {
+        this.emp = emp;
+    }
+
+    private Employee emp;
+
     double totalSales(){
         return 0;
     }
