@@ -18,6 +18,7 @@ public class Client {
 
     private int clientID;
     private String clientName;
+    private Employee emp;
 
     double totalSales(){
         return 0;
