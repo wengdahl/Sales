@@ -27,6 +27,6 @@ public class SalesManager extends Employee{
         //for accessing private method
         Method m=Employee.class.getDeclaredMethod("getClients");
         m.setAccessible(true);
-        return 1000*((ArrayList)(m.invoke(employees))).size();
+        return 1000*((ArrayList)(m.invoke(this.getClass().getSuperclass()))).size();
     }
 }
