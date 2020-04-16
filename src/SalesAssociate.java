@@ -1,3 +1,5 @@
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 
 public class SalesAssociate extends Employee {
@@ -31,9 +33,11 @@ public class SalesAssociate extends Employee {
     protected String SalesManager;
     protected long salesID;
 
-    double bonus(){
-
-        return 0;
+    protected double Bonus() throws InvocationTargetException, IllegalAccessException, NoSuchMethodException {
+        //for accessing private method
+        Method m=Employee.class.getDeclaredMethod("getClients");
+        m.setAccessible(true);
+        return 500*((ArrayList)(m.invoke(this.getClass().getSuperclass()))).size();
     }
 
 }
