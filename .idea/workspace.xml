@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bd122fa-069b-44a0-8dc3-a2048669278b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SalesAssociate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SalesAssociate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SalesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SalesManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +40,15 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
+  <component name="RunManager">
+    <configuration name="Run" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Sales" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -46,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587076206050</updated>
-      <workItem from="1587076370448" duration="2589000" />
+      <workItem from="1587076370448" duration="6645000" />
     </task>
     <servers />
   </component>
@@ -58,21 +71,41 @@
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
     <state x="-1682" y="46" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587077229949" />
-    <state x="-1607" y="-33" key="#com.intellij.ide.util.MemberChooser" timestamp="1587078017116">
+    <state x="-1901" y="-65" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587081535501">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
-    <state x="-1607" y="-33" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587078017116" />
+    <state x="-1901" y="-65" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587081535501" />
+    <state x="-1607" y="-33" key="#com.intellij.ide.util.MemberChooser" timestamp="1587080555789">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state x="-1607" y="-33" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587080555788" />
     <state x="-1583" y="180" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587076445427">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
     <state x="-1583" y="180" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587076445427" />
+    <state width="1058" height="290" key="GridCell.Tab.0.bottom" timestamp="1587083291779">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1058" height="290" key="GridCell.Tab.0.bottom/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587083291779" />
+    <state width="1058" height="290" key="GridCell.Tab.0.center" timestamp="1587083291777">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1058" height="290" key="GridCell.Tab.0.center/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587083291777" />
+    <state width="1058" height="290" key="GridCell.Tab.0.left" timestamp="1587083291776">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1058" height="290" key="GridCell.Tab.0.left/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587083291776" />
+    <state width="1058" height="290" key="GridCell.Tab.0.right" timestamp="1587083291777">
+      <screen x="-1920" y="-257" width="1920" height="1057" />
+    </state>
+    <state width="1058" height="290" key="GridCell.Tab.0.right/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587083291777" />
     <state x="-1920" y="-146" key="SettingsEditor" timestamp="1587078129063">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
     <state x="-1920" y="-146" key="SettingsEditor/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587078129063" />
-    <state x="-1748" y="-22" width="670" height="676" key="search.everywhere.popup" timestamp="1587078777133">
+    <state x="-1748" y="-22" width="670" height="676" key="search.everywhere.popup" timestamp="1587082495978">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
-    <state x="-1748" y="-22" width="670" height="676" key="search.everywhere.popup/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587078777133" />
+    <state x="-1748" y="-22" width="670" height="676" key="search.everywhere.popup/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587082495978" />
   </component>
 </project>

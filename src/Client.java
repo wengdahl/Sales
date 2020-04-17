@@ -1,5 +1,11 @@
 public class Client {
 
+    public  Client(String nm, int ID)
+    {
+        clientName = nm;
+        clientID = ID;
+    }
+
     protected int getClientID() {
         return clientID;
     }
@@ -33,5 +39,14 @@ public class Client {
         return 0;
     }
 
+    protected String getLabelString()
+    {
+        return clientName+" "+clientID;
+    }
+
+    public String toString(){
+        String s = "Client: "+clientName+". Sales Employee: "+emp.getEmployeeName();
+        return s;
+    }
 
 }

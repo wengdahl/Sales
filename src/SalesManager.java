@@ -23,10 +23,36 @@ public class SalesManager extends Employee{
         manager = m;
     }
 
-    protected double Bonus() throws InvocationTargetException, IllegalAccessException, NoSuchMethodException {
+    private ArrayList getClients() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         //for accessing private method
         Method m=Employee.class.getDeclaredMethod("getClients");
         m.setAccessible(true);
-        return 1000*((ArrayList)(m.invoke(this.getClass().getSuperclass()))).size();
+        return (ArrayList)(m.invoke(this.getClass().getSuperclass()));
+    }
+
+    protected double Bonus() throws InvocationTargetException, IllegalAccessException, NoSuchMethodException {
+        return 1000*super.getNumClients();
+    }
+
+  public String toString()
+  {
+      String s ="Sales  Manager: "+employeeName+". Employees: ";
+        for (Employee e: employees)
+        {
+            s+=e.getEmployeeName()+",";
+        }
+        s = s.substring(0,s.length()-1)+". Clients:";
+        s+=super.clientString();
+        return s;
+    }
+
+    @Override
+    protected String getEmployeeName() {
+        return employeeName;
+    }
+
+    protected void addEmployee(Employee e)
+    {
+        employees.add(e);
     }
 }

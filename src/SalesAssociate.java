@@ -4,6 +4,12 @@ import java.util.ArrayList;
 
 public class SalesAssociate extends Employee {
 
+    public  SalesAssociate(String nm, long ID)
+    {
+        employeeName = nm;
+        salesID = ID;
+    }
+
     protected String employeeName;
 
     protected String getEmployeeName() {
@@ -14,11 +20,11 @@ public class SalesAssociate extends Employee {
         this.employeeName = employeeName;
     }
 
-    protected String getSalesManager() {
+    protected SalesManager getSalesManager() {
         return SalesManager;
     }
 
-    protected void setSalesManager(String salesManager) {
+    protected void setSalesManager(SalesManager salesManager) {
         SalesManager = salesManager;
     }
 
@@ -30,7 +36,7 @@ public class SalesAssociate extends Employee {
         this.salesID = salesID;
     }
 
-    protected String SalesManager;
+    protected SalesManager SalesManager;
     protected long salesID;
 
     protected double Bonus() throws InvocationTargetException, IllegalAccessException, NoSuchMethodException {
@@ -39,5 +45,12 @@ public class SalesAssociate extends Employee {
         m.setAccessible(true);
         return 500*((ArrayList)(m.invoke(this.getClass().getSuperclass()))).size();
     }
+
+    public String toString()
+    {
+        String s ="Sales  Associate: "+employeeName+". Sales Manager: "+SalesManager.getEmployeeName()+". Clients: " +super.clientString();
+        return s;
+    }
+
 
 }
