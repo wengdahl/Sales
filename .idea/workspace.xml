@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bd122fa-069b-44a0-8dc3-a2048669278b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SalesAssociate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SalesAssociate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SalesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SalesManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587076206050</updated>
-      <workItem from="1587076370448" duration="6645000" />
+      <workItem from="1587076370448" duration="8697000" />
     </task>
     <servers />
   </component>
@@ -83,22 +78,22 @@
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
     <state x="-1583" y="180" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587076445427" />
-    <state width="1058" height="290" key="GridCell.Tab.0.bottom" timestamp="1587083291779">
+    <state width="1058" height="290" key="GridCell.Tab.0.bottom" timestamp="1587083389295">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
-    <state width="1058" height="290" key="GridCell.Tab.0.bottom/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587083291779" />
-    <state width="1058" height="290" key="GridCell.Tab.0.center" timestamp="1587083291777">
+    <state width="1058" height="290" key="GridCell.Tab.0.bottom/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587083389295" />
+    <state width="1058" height="290" key="GridCell.Tab.0.center" timestamp="1587083389294">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
-    <state width="1058" height="290" key="GridCell.Tab.0.center/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587083291777" />
-    <state width="1058" height="290" key="GridCell.Tab.0.left" timestamp="1587083291776">
+    <state width="1058" height="290" key="GridCell.Tab.0.center/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587083389294" />
+    <state width="1058" height="290" key="GridCell.Tab.0.left" timestamp="1587083389293">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
-    <state width="1058" height="290" key="GridCell.Tab.0.left/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587083291776" />
-    <state width="1058" height="290" key="GridCell.Tab.0.right" timestamp="1587083291777">
+    <state width="1058" height="290" key="GridCell.Tab.0.left/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587083389293" />
+    <state width="1058" height="290" key="GridCell.Tab.0.right" timestamp="1587083389294">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
-    <state width="1058" height="290" key="GridCell.Tab.0.right/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587083291777" />
+    <state width="1058" height="290" key="GridCell.Tab.0.right/0.23.1280.777/-1920.-257.1920.1057@-1920.-257.1920.1057" timestamp="1587083389294" />
     <state x="-1920" y="-146" key="SettingsEditor" timestamp="1587078129063">
       <screen x="-1920" y="-257" width="1920" height="1057" />
     </state>
